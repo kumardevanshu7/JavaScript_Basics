@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 20px;
+  }
+  
+  body {
+    font-size: 50px;
+    background-color: aquamarine;
+  }
+  
+  button {
+    font-size: 50px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    transition: background 2s, color 2s, border 2s;
+    color: rgb(239, 155, 0);
+  }
+  
+  button:hover {
+    background: rgb(27, 210, 27);
+    color: antiquewhite;
+    border: 2px solid greenyellow;
+    cursor: pointer;
+  }
+  
