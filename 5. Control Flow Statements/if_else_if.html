@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IF-ELSE-IF Statement</title>
+  </head>
+  <body>
+    <!-- Example -->
+    <h1>Hey Whats Up!</h1>
+    <button>Click Here</button>
+
+    <script>
+      let btm = document.querySelector("button");
+      btm.addEventListener("click", function () {
+        let time = prompt("What's the time?");
+        if (time >= 5 && time < 12) {
+          alert("Good Morning! My Love!");
+        } else if (time >= 12 && time < 17) {
+          alert("Good Afternoon! My Love!");
+        } else if (time >= 17 && time < 21) {
+          alert("Good Evening! My Love!");
+        } else {
+          alert("Good Night! My Love!");
+        }
+      });
+    </script>
+  </body>
+</html>
