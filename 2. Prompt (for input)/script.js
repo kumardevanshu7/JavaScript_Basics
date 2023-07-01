@@ -1,3 +1,5 @@
+// Prompt Box : JS File
+
 let btn = document.querySelector("button");
 btn.addEventListener("click", inputMsg);
 
