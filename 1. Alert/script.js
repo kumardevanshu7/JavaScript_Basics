@@ -1,3 +1,4 @@
+// Alert Box : CSS File
 // javascript file which is link to the html
 
 var btn = document.querySelector("button");
