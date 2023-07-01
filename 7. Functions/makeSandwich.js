@@ -1,3 +1,5 @@
+// Function with Return Type
+
 let bread1 = prompt("Which bread would you like to eat : ");
 let veggie1 = prompt("Which veggies would you like to eat : ");
 let sauce1 = prompt("Which suace would you like to eat : ");
