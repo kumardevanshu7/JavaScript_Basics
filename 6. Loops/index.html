@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loops Examples</title>
+  </head>
+  <body>
+    <h1>Loops</h1>
+    <ul>
+      <li>for</li>
+      <li>while</li>
+      <li>do while</li>
+      <li>for...in</li>
+      <li>for...of</li>
+    </ul>
+
+    <script>
+      //for loop
+      for (let i = 0; i < 10; i++) {
+        console.log("Hello! Chhavi!");
+      }
+
+      // while loop
+      let i = 0;
+      while (i < 10) {
+        console.log("Cute Zanu");
+        i++;
+      }
+
+      // do while loop
+      let j = 0;
+      do {
+        console.log("Beautiful Anshika");
+        j++;
+      } while (j < 10);
+
+      // for...in loop : basically this will use in Objects
+      // instance of creating an object
+      let girl = {
+        name: "zainab",
+        eyes: 2,
+        legs: 2,
+      };
+      // for...in loop example
+      for (let pen in girl) {
+        console.log(pen, girl[pen]);
+      }
+
+      // for...in loop in Arrays
+      let girlsName = ["Anshika", "Chhavi", "Deepa", "Dolly"];
+      for (let gfb in girlsName) {
+        console.log(gfb, girlsName[gfb]);
+      }
+
+      // for...of loop in Arrays
+      for (let names of girlsName) {
+        console.log(names); // this will show directly values
+      }
+    </script>
+  </body>
+</html>
