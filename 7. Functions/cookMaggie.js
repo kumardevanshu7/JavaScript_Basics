@@ -1,4 +1,4 @@
-// not returning anything : like a Void Function
+// Void Function : means not returning anything
 function cookMaggie(maggie, paani, pan, masala) {
   console.log(
     "Your Maggie will be ready in " +
