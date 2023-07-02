@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Methods</title>
+  </head>
+  <body>
+    <h1>Strings Methods</h1>
+    <script>
+      let name = "Chhavi Midha";
+      let word = " is Beautiful.";
+
+      // length function
+      console.log(name.length);
+
+      // finding the first character
+      console.log(name[3]);
+
+      // concatenation
+      let newWord = name.concat("", word);
+      console.log(newWord);
+
+      // indexof Property
+      let newSentence = "Zainab is the most Beautiful girl on this Planet.";
+      console.log(newSentence.indexOf("girl"));
+
+      // slicing property
+      console.log(newSentence.slice(6, 34));
+
+      // uppercase and lowercase
+      console.log(newSentence.toUpperCase());
+      console.log(newSentence.toLowerCase());
+
+      // spliting
+      let newWord1 = name.split(0);
+      console.log(newWord1);
+    </script>
+  </body>
+</html>
